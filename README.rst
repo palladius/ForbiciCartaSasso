@@ -13,7 +13,7 @@ The winner is determined by the following schema:
 • rock beats (blunts) scissors, 
 • scissors beats (cuts) paper.
 
-* Write a Program that plays PaperScissorsRock between the computer and a real player. 
+Write a Program that plays PaperScissorsRock between the computer and a real player. 
 
 You should be able to play the game n times before the program exits.
 
@@ -43,7 +43,7 @@ Again, no testing due to lack of time although Symbol would be very easy/intrest
 
 A very easy refactor would be to call the Game constructor with something like:
 
- `public Game(int nTurns, IPlayer player1, IPlayer player2)` ,
+    ''public Game(int nTurns, IPlayer player1, IPlayer player2)'' ,
 
 letting the Main to decide the 'race' (human vs computer) of players.
 
