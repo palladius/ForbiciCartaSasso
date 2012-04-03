@@ -4,12 +4,13 @@
  *  I will assume the number of 'games' equals the number of turns to decide
  *  who won in the end. This is the main method.
  * 
+ * Usage
  */
 public class Main {
 	public static final String ProgramVersion = "1.0a" ;
 	
 	/**
-	 * @param args
+	 * @param args: ARGV[1] might override the default number of hands
 	 */
 	public static void main(String[] args) {
 		int numberOfTurns = 5; 

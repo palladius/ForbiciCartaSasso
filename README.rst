@@ -40,3 +40,10 @@ have probably been the choice given C as a programming language. I also wrapped 
 victory/losing/tie into an Enum for readability.
 
 Again, no testing due to lack of time although Symbol would be very easy/intresting to Unit Test.
+
+Install
+-------
+
+	cd src/
+	javac *.java
+	java Main 42       # plays a 42-hands game
