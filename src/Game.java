@@ -51,7 +51,7 @@ public class Game {
 			return "Tie";
 		if (victories1 > victories2)
 			return "Player1 ("+player1.getClass()+")";
-		if (victories1 == victories2)
+		if (victories1 < victories2)
 			return "Player2 ("+player2.getClass()+")";
 		return "TODO DECIDE";
 	}

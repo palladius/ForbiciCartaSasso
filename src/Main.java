@@ -13,10 +13,9 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		int numberOfTurns = 5; 
-		// TODO Take it from Argv(1)
 		if (args.length == 1 ) {
 			if (Integer.parseInt(args[0]) > 0) {
-				numberOfTurns = Integer.parseInt(args[1]);
+				numberOfTurns = Integer.parseInt(args[0]);
 			}
 		}
 		System.out.print("Starting a game of "+numberOfTurns+" hands\n");
