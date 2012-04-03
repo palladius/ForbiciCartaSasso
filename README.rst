@@ -45,7 +45,8 @@ A very easy refactor would be to call the Game constructor with something like:
 
     ''public Game(int nTurns, IPlayer player1, IPlayer player2)'' ,
 
-letting the Main to decide the 'race' (human vs computer) of players.
+letting the Main to decide the 'race' (human vs computer) of players. See TODO comment in the
+Main class.
 
 Install
 -------
