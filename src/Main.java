@@ -6,7 +6,7 @@
  * 
  */
 public class Main {
-	
+	public static final String ProgramVersion = "1.0a" ;
 	
 	/**
 	 * @param args
@@ -18,7 +18,7 @@ public class Main {
 				numberOfTurns = Integer.parseInt(args[0]);
 			}
 		}
-		System.out.print("Starting a game of "+numberOfTurns+" hands\n");
+		System.out.print("Starting a game of "+numberOfTurns+" hands (you can change this thru ARGV[1])\n");
 		Game game = new Game(numberOfTurns);
 		game.play();
 	}
