@@ -8,12 +8,13 @@
  */
 public class Main {
 	public static final String ProgramVersion = "1.0a" ;
+	public static final int DefaultHands = 5 ;
 	
 	/**
 	 * @param args: ARGV[1] might override the default number of hands
 	 */
 	public static void main(String[] args) {
-		int numberOfTurns = 5; 
+		int numberOfTurns = DefaultHands ; 
 		if (args.length == 1 ) {
 			if (Integer.parseInt(args[0]) > 0) {
 				numberOfTurns = Integer.parseInt(args[0]);
