@@ -41,6 +41,12 @@ victory/losing/tie into an Enum for readability.
 
 Again, no testing due to lack of time although Symbol would be very easy/intresting to Unit Test.
 
+A very easy refactor would be to call the Game constructor with something like:
+
+ `public Game(int nTurns, IPlayer player1, IPlayer player2)` ,
+
+letting the Main to decide the 'race' (human vs computer) of players.
+
 Install
 -------
 
