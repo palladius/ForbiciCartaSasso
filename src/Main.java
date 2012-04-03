@@ -15,7 +15,7 @@ public class Main {
 		int numberOfTurns = 5; 
 		// TODO Take it from Argv(1)
 		if (args.length == 1 ) {
-			if (Integer.parseInt(args[1]) > 0) {
+			if (Integer.parseInt(args[0]) > 0) {
 				numberOfTurns = Integer.parseInt(args[1]);
 			}
 		}
