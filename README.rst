@@ -44,6 +44,6 @@ Again, no testing due to lack of time although Symbol would be very easy/intrest
 Install
 -------
 
-	cd src/
-	javac *.java
-	java Main 42       # plays a 42-hands game
+* `cd src/`
+* `javac *.java`
+* `java Main 42       # plays a 42-hands game`
