@@ -7,7 +7,7 @@
  * Usage
  */
 public class Main {
-	public static final String ProgramVersion = "1.0a" ;
+	public static final String ProgramVersion = "1.1" ;
 	public static final int DefaultHands = 5 ;
 	
 	/**
